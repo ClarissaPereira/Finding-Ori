@@ -6,3 +6,4 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 * [Find the number of times a k-mer appears in the genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/basic%20k-mer%20search.py)
 * [Find the most frequent k-mer in a genome given the k value](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20k-mer%20by%20k.py)
 * [Find the location of a specific k-mer in a genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20k-mer%20location.py)
+* [Find frequent k-mers that cluster together into clumps in the genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/finding%20k-mer%20clumps.py)
