@@ -17,4 +17,4 @@ def find_kmer_by_k (genome, k):
   return;
 
 find_kmer_by_k (genome = 'AGTATATC', k = 3)
-# ['TAT'] is printed
+# Output --> ['TAT'] 
