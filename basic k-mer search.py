@@ -10,3 +10,4 @@ def basic_kmer_search (genome, kmer):
   return;
 
 basic_kmer_search (genome = 'AGAGAT', kmer = 'AGA')
+# Output --> 2 
