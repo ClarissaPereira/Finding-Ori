@@ -20,6 +20,10 @@ For instance, 'AGCTA' contains:
 
 In general, a genome of length *L* has (*L-k+1*) k-mers. The total possible k-mer permutations = 4<sup>*k*</sup>. Since the number of possible k-mers grows exponentially as k increases, the task of identifying k-mers where k>10 becomes computationally challenging - in this project, I have aimed to increase program efficiency to minimise runtime. 
 
+### k-mer finding functions:
+1. [Find frequency of a particular k-mer in genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/basic%20k-mer%20search.py)
+2. [Find most frequent k-mers when given k](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20k-mer%20by%20k.py)
+
 ## Replication Mutations
 Although DNA strands run in opposite directions (one in 3' -> 5' direction, the other in 5' -> 3'), DNA polymerase is unidirectional. The enzyme can only read template strands in the 3' -> 5' directions so it relies on primer-binding to copy the 5' -> 3' strand. This results in asymmetric replication in which the leading strand (3' -> 5') is replicated swiftly whereas the lagging strand replication is frequently interrupted. 
 
