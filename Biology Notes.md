@@ -29,7 +29,7 @@ Ori can be found at the skew plot minima - the point where the lagging strand an
 The ori location identified by this technique is not precise since the circular bacterial genome is linearised and an arbitrary starting position is chosen. However, the skew technique can help narrow down the searching region in the genome.
 
 ## Imperfect K-mers
-A consequence of lagging strand deamination is that the DnaA box we wish to detect could have mutated. So exact pattern matching will not yield the true base sequence of the DnaA box. As a result, k-mer identification needs to account for a certain number of mutations per k-mer 
+A consequence of lagging strand deamination is that the DnaA box we wish to detect could have mutated. So exact pattern matching will not yield the true base sequence of the DnaA box. As a result, k-mer identification needs to account for a certain number of mutations per k-mer.  
 
 
   
