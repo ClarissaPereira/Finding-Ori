@@ -20,4 +20,4 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 
 ## Mutations & Imperfect Pattern Matching Functions
 * [Find the number of mutated bases in a replicated DNA strand](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20mutated%20bases.py)
-
+* [Locate approximate k-mer matches](https://github.com/ClarissaPereira/Finding-Ori/blob/master/locate%20approximate%20k-mer%20matches.py)
