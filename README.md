@@ -17,3 +17,7 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 * [NEW -> Plotting skew with Matplotlib](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py)
 
 ![skewplotex](https://user-images.githubusercontent.com/68158694/87874378-4911dd00-c9c1-11ea-885a-94aab51bd3cd.png)
+
+## Mutations & Imperfect Pattern Matching Functions
+* [Find the number of mutated bases in a replicated DNA strand](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20mutated%20bases.py)
+
