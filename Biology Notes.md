@@ -34,8 +34,10 @@ Although DNA strands run in opposite directions (one in 3' -> 5' direction, the 
 
 These interruptions result in the lagging strand remaining unpaired for longer than the leading strand - leaving it vulnerable to mutation. Without the stability of base stacking and hydrogen bonds, cytosine *C* bases spontaneously deaminate into thymine *T*. The loss of *C* from the lagging strand changes the ratio of *G*:*C* - this ratio change can be calculated as a **skew value**. In a section of a bacterial genome, if skew is decreasing the section must have been taken from the leading strand. And vice versa for the lagging strand. 
 
-Example of a Skew Plot (generated using [the skew plotter I created](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py)):
-        ![skewplotex](https://user-images.githubusercontent.com/68158694/87873804-59738900-c9bc-11ea-8783-a7653c52aa00.png)
+Example of a Skew Plot: 
+
+(generated using [the skew plotter I created](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py))
+![skewplotex](https://user-images.githubusercontent.com/68158694/87873804-59738900-c9bc-11ea-8783-a7653c52aa00.png)
 
 Ori can be found at the skew plot minima - the point where the lagging strand and leading strand meet and the skew switches from decreasing to increasing.
 The ori location identified by this technique is not precise since the circular bacterial genome is linearised and an arbitrary starting position is chosen. However, the skew technique can help narrow down the searching region in the genome.
