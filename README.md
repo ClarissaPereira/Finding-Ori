@@ -11,3 +11,6 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 
 ## Reverse Complement Functions
 * [Reverse Complement Generator](https://github.com/ClarissaPereira/Finding-Ori/blob/master/reverse%20complement%20generator.py)
+
+## Skew Functions
+* [NEW -> Plotting skew with Matplotlib](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py)
