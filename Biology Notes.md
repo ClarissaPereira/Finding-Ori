@@ -52,6 +52,7 @@ A consequence of lagging strand deamination is that the DnaA box we wish to dete
 
 ### functions that account for mutations:
 1. [Find the number of mutated bases in a replicated DNA strand](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20mutated%20bases.py)
+2. [Locate approximate k-mer matches](https://github.com/ClarissaPereira/Finding-Ori/blob/master/locate%20approximate%20k-mer%20matches.py)
 
 ## Limitations of a computational method
   * Some bacterial genomes have very few DnaA boxes which complicates pattern matching and finding frequent k-mers
