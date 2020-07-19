@@ -13,6 +13,7 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 * [Reverse Complement Generator](https://github.com/ClarissaPereira/Finding-Ori/blob/master/reverse%20complement%20generator.py)
 
 ## Skew Functions
+* [Find the minima of a skew plot](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20skew%20minima.py)
 * [NEW -> Plotting skew with Matplotlib](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py)
 
 ![skewplotex](https://user-images.githubusercontent.com/68158694/87874378-4911dd00-c9c1-11ea-885a-94aab51bd3cd.png)
