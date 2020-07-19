@@ -34,7 +34,7 @@ Although DNA strands run in opposite directions (one in 3' -> 5' direction, the 
 
 These interruptions result in the lagging strand remaining unpaired for longer than the leading strand - leaving it vulnerable to mutation. Without the stability of base stacking and hydrogen bonds, cytosine *C* bases spontaneously deaminate into thymine *T*. The loss of *C* from the lagging strand changes the ratio of *G*:*C* - this ratio change can be calculated as a **skew value**. In a section of a bacterial genome, if skew is decreasing the section must have been taken from the leading strand. And vice versa for the lagging strand. 
 
-Example of a Skew Plot for a section of the E.coli genome: 
+Example of a Skew Plot for a section of the lagging strand of E.coli genome: 
 
 (generated using [the skew plotter I created](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py))
 ![skewplotex](https://user-images.githubusercontent.com/68158694/87874378-4911dd00-c9c1-11ea-885a-94aab51bd3cd.png)
