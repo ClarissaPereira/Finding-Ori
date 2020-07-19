@@ -34,13 +34,14 @@ Although DNA strands run in opposite directions (one in 3' -> 5' direction, the 
 
 These interruptions result in the lagging strand remaining unpaired for longer than the leading strand - leaving it vulnerable to mutation. Without the stability of base stacking and hydrogen bonds, cytosine *C* bases spontaneously deaminate into thymine *T*. The loss of *C* from the lagging strand changes the ratio of *G*:*C* - this ratio change can be calculated as a **skew value**. In a section of a bacterial genome, if skew is decreasing the section must have been taken from the leading strand. And vice versa for the lagging strand. 
 
-Example of a Skew Plot: 
+Example of a Skew Plot for a section of the E.coli genome: 
 
 (generated using [the skew plotter I created](https://github.com/ClarissaPereira/Finding-Ori/blob/master/skew%20plotter.py))
-![skewplotex](https://user-images.githubusercontent.com/68158694/87873804-59738900-c9bc-11ea-8783-a7653c52aa00.png)
+![skewplotex](https://user-images.githubusercontent.com/68158694/87874378-4911dd00-c9c1-11ea-885a-94aab51bd3cd.png)
 
-Ori can be found at the skew plot minima - the point where the lagging strand and leading strand meet and the skew switches from decreasing to increasing.
-The ori location identified by this technique is not precise since the circular bacterial genome is linearised and an arbitrary starting position is chosen. However, the skew technique can help narrow down the searching region in the genome.
+Ori can be found at the skew plot minima - the point where the lagging strand and leading strand meet and the skew switches from decreasing to increasing. In the plot above, possible oris are located at positions 520, 521, 522, 523, and 530 in the genome.
+
+The ori location identified by this technique is not precise since the circular bacterial genome is linearised and an arbitrary starting position is chosen. However, the skew technique can help narrow down the searching region in the genome. (In the example above, a k-mer search could be focused on positions 470 to 580).
 
 ## Imperfect K-mers
 A consequence of lagging strand deamination is that the DnaA box we wish to detect could have mutated. So exact pattern matching will not yield the true base sequence of the DnaA box. As a result, k-mer identification needs to account for a certain number of mutations per k-mer.  
