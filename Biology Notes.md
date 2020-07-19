@@ -1,6 +1,6 @@
 # Finding Ori - Locating the origin of replication in bacterial genomes
 ## Background
-Before a bacterial cell divides into two, it needs to create two copies of its DNA (one for each of the resulting daughter cells). DNA replication creates a new copy of the bacterial genome by using the original DNA strands as templates. **DNA polymerase** attaches to a template strand of DNA and syntheises a reverse complement strand (an anti-parallel strand of DNA with complementary bases). DNA polymerase binds to the replication origin of the circular genome (aka. **the *ori* region**).
+Before a bacterial cell divides into two, it needs to create two copies of its DNA (one for each of the resulting daughter cells). DNA replication creates a new copy of the bacterial genome by using the original DNA strands as templates. **DNA polymerase** attaches to a template strand of DNA and syntheises a [reverse complement strand](https://github.com/ClarissaPereira/Finding-Ori/blob/master/reverse%20complement%20generator.py) (an anti-parallel strand of DNA with complementary bases). DNA polymerase binds to the replication origin of the circular genome (aka. **the *ori* region**).
 
 DNA replication is triggered by the binding of an initiation factor (DnaA protein). Within the ori region, there is a short non-coding base sequence known as the **DnaA box** which acts as a point of attachment for the DnaA protein. The DnaA box can therefore act as a landmark in our quest to locate the ori.
 
