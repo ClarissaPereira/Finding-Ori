@@ -50,6 +50,9 @@ The ori location identified by this technique is not precise since the circular 
 ## Imperfect K-mers
 A consequence of lagging strand deamination is that the DnaA box we wish to detect could have mutated. So exact pattern matching will not yield the true base sequence of the DnaA box. As a result, k-mer identification needs to account for a certain number of mutations per k-mer.  
 
+### functions that account for mutations:
+1. [Find the number of mutated bases in a replicated DNA strand](https://github.com/ClarissaPereira/Finding-Ori/blob/master/find%20mutated%20bases.py)
+
 ## Limitations of a computational method
   * Some bacterial genomes have very few DnaA boxes which complicates pattern matching and finding frequent k-mers
   * Ori region will be imprecise if leading and lagging half-strand lengths are inequal
