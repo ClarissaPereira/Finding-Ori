@@ -16,4 +16,4 @@ def skewplot (genome):
     plt.show()
     return;
 
-skewplot(genome = 'CATGGGCATCGGCCATACGCC')
+# Output --> see an example of an output skew plot here : https://github.com/ClarissaPereira/Finding-Ori/blob/master/Biology%20Notes.md#replication-mutations
