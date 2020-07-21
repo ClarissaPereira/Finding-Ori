@@ -10,3 +10,10 @@ def all_kmers (k):
 
 all_kmers(k = 3)
 # Output -> ['AAA', 'AAC', 'AAG', ..., 'TTG', 'TTT']
+
+# ALT #
+# Came up with a better way to do this whilst working in Tick-TOC1 repo
+# slightly more efficient and better readability
+import itertools
+def all_kmers(k):
+    return (''.join(p) for p in itertools.product('ATCG', repeat=k))
