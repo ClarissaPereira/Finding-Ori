@@ -5,7 +5,7 @@ Before opening the code files, I recommend quickly reading about the [biology ba
 
 The majority of the files in this repo are for a single function. Most of these small functions contribute to the larger [Final DnaA Box Finder](https://github.com/ClarissaPereira/Finding-Ori/blob/master/Final%20DnaA%20Box%20Finder.py) program. 
 
-The [*Salmonella enterica* genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/S_enterica_genome.txt) is included as test data.
+The [*Salmonella enterica* genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/S_enterica_genome.txt) is included as test data. The final DnaA Box Finder identified the S. enterica DnaA box as **TTATCCACA**. An existing [UniProt database entry](https://www.uniprot.org/uniprot/G5S336) confirms that the DnaA sequence is 5'-TTATC[CA]A[CA]A-3' - a successful match!  
 
 ## K-mer Searching Functions
 * [Find the number of times a k-mer appears in the genome](https://github.com/ClarissaPereira/Finding-Ori/blob/master/basic%20k-mer%20search.py)
